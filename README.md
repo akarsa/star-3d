@@ -48,7 +48,7 @@ while saving all results in demo/STAR-3D_results.
 HOW TO USE
 -------------------------------------------------------------------------------
 
-**To perform 3D nucleus segmentation** (see star-3d/example.ipynb and star-3d/example.py):
+**To perform 3D nucleus segmentation** (see star3d/example.ipynb and star3d/example.py):
 
 ```
 # 1. Calculate optimal resolution and downsampling factors 
