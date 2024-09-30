@@ -38,10 +38,15 @@ Requirements.txt, but the software is likely to work with other versions as well
 DEMO
 -------------------------------------------------------------------------------
 demo/demo.ipynb is a short demo performing segmentation in the five time points in 
-demo/intensity. Depending on your computer, this might take a while (5-20 minutes).
+demo/intensity. Depending on your computer, this might take a while.
 If memory issues occur, try increasing the number of patches in one or more dimensions
-(e.g. `patches = np.array([1,2,2])`). The demo code should produce the below image 
-while saving all results in demo/STAR-3D_results. 
+(e.g. `patches = np.array([1,2,2])`) and rerun the script after restarting the kernel. 
+For reference, we managed to successfully run the demo script in 5 minutes on an 
+Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz processor with 128 GB RAM using 
+`patches = np.array([1,1,1])` and in 1.5 hours on an Intel(R) Core(TM) i5-8250U CPU @ 
+1.60GHz with 8 GB RAM using `patches = np.array([1,2,2])`.
+
+The demo code should produce the below image while saving all results in demo/STAR-3D_results. 
 
 <p align="center"><img src="demo/segmentation.png" width="500" /></p>
 
